@@ -1,0 +1,35 @@
+body {
+  background-color:rgba(6, 88, 126, 0.788); /* Define a cor de fundo da página */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define a fonte) */
+  margin: 0; /* Remove o espaço padrão em volta da página */
+  height: 100vh; /* Define a altura do body como 100% da altura da tela do navegador */
+  display: flex; /* Ativa o Flexbox (modelo de layout flexível) */
+  justify-content: center; /* Centraliza horizontalmente os itens no meio da tela */
+  align-items: center; /* Centraliza verticalmente os itens no meio da tela */
+  font-size: 20px; /* tamanho da fonte */
+
+}
+
+.container {
+  background-color: rgba(11, 159, 196, 0.788); /* Define o fundo do bloco principal */
+  padding: 50px; /* Espaço interno dentro do container (respiro em todos os lados) */
+  border-radius: 20px; /* Deixa os cantos arredondados */
+  text-align: center; /* Centraliza o texto no meio */
+  width: 400px; /* Largura fixa da caixinha */
+  box-shadow: 0 0 50px rgba(1, 4, 46, 0.685); /* Sombra em volta do container pra dar destaque */
+}
+
+input, select, button {
+  margin: 10px 0; /* Espaço em cima e embaixo de cada campo */
+  padding: 10px; /* Espaço interno dentro do input, select e botão */
+  width: 100%; /* Ocupa 100% da largura do container */
+  font-size: 20px; /* Tamanho da letra dos campos */
+}
+
+#resultado {
+  margin-top: 30x; /* Espaço acima do resultado */
+  font-weight: bold; /* Deixa o texto do resultado em negrito */
+  color: rgb(17, 29, 143); /* Cor do texto do resultado */
+  font-size: 30px; /* tamanho da fonte do resultado */
+  text-shadow: 2px 2px rgb(15, 111, 155); /* borda do texto*/
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Múltiplas Ações</h1>
+
+    <!-- Campo para o primeiro número -->
+    <input type="number" id="numero1" placeholder="Digite o primeiro número">
+
+    <!-- Campo para o segundo número -->
+    <input type="number" id="numero2" placeholder="Digite o segundo número">
+
+    <!-- Menu para escolher a operação -->
+    <select id="operacao">
+      <option value="soma">Somar</option>
+      <option value="subtracao">Subtrair</option>
+      <option value="multiplicacao">Multiplicar</option>
+      <option value="divisao">Dividir</option>
+    </select>
+
+    <!-- Botão para executar o cálculo -->
+    <button onclick="calcular()">Calcular</button>
+
+    <!-- Onde vai aparecer o resultado -->
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
