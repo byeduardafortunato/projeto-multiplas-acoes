@@ -27,7 +27,7 @@ input, select, button {
 }
 
 #resultado {
-  margin-top: 30x; /* Espaço acima do resultado */
+  margin-top: 30px; /* Espaço acima do resultado */
   font-weight: bold; /* Deixa o texto do resultado em negrito */
   color: rgb(17, 29, 143); /* Cor do texto do resultado */
   font-size: 30px; /* tamanho da fonte do resultado */
